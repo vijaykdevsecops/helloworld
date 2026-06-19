@@ -1,2 +1,2 @@
 # helloworld - 
-# This first samplke build in Jenkins
+# This first sample build in Jenkins
