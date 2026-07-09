@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'java HelloPipeline'
+                sh 'java HelloPipeline from GitHub'
             }
         }
     }
