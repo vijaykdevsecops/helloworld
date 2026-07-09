@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'javac HelloPipeline.java'
+                bat 'javac HelloPipeline.java'
             }
         }
         stage('Run') {
             steps {
-                sh 'java HelloPipeline'
+                bat 'java HelloPipeline'
             }
         }
     }
