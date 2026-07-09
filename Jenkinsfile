@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vijaykdevsecops/ci-cd_project.git'
+                    url: 'https://github.com/vijaykdevsecops/helloworld.git'
             }
         }
         stage('Build') {
@@ -19,3 +19,4 @@ pipeline {
         }
     }
 }
+
